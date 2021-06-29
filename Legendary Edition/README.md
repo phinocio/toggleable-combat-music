@@ -1,14 +1,12 @@
 # Toggleable Combat Music
 > Current Version: **v1.0.0**
 
-Allows one to turn on/off combat music.
+Allows one to turn on/off combat music. This version is for **Skyrim Legendary Edition**.
 
 # Table Of Contents
 
 <!-- TOC -->
 
-- [Toggleable Combat Music](#toggleable-combat-music)
-- [Table Of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Compatibility](#compatibility)
 - [Known Issues](#known-issues)
