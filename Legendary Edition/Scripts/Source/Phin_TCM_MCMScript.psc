@@ -43,7 +43,7 @@ Event OnOptionSelect(int option)
 		SetToggleOptionValue(iMusicToggle, bMusicOn);
 
 		If(bMusicOn == True)
-			Debug.Notification("Music turned on");
+			Debug.Notification("Combat Music Turned On");
 			Game.SetGameSettingFloat("fCombatMusicGroupThreatRatioMax", groupThreatRatioMaxDefault);
 			Game.SetGameSettingFloat("fCombatMusicGroupThreatRatioMin", groupThreadRatioMinDefault);
 			Game.SetGameSettingFloat("fCombatMusicGroupThreatRatioTimer", groupThreaRatioTimerDefault);
@@ -55,7 +55,7 @@ Event OnOptionSelect(int option)
 			Game.SetGameSettingFloat("fCombatMusicStopTime", stopTimeDefault);
 			Game.SetGameSettingFloat("fCombatMusicUpdateTime", updateTimeDefault);
 		Else
-			Debug.Notification("Music turned off");
+			Debug.Notification("Combat Music Turned Off");
 			Game.SetGameSettingFloat("fCombatMusicGroupThreatRatioMax", 0.000000);
 			Game.SetGameSettingFloat("fCombatMusicGroupThreatRatioMin", 0.000000);
 			Game.SetGameSettingFloat("fCombatMusicGroupThreatRatioTimer", 0.000000);
@@ -63,9 +63,10 @@ Event OnOptionSelect(int option)
 			Game.SetGameSettingFloat("fCombatMusicNearCombatOuterRadius", 0.000000);
 			Game.SetGameSettingFloat("fCombatMusicPlayerCombatStrengthCap", 0.000000);
 			Game.SetGameSettingFloat("fCombatMusicPlayerNearStrengthMult", 0.000000);
-			Game.SetGameSettingFloat("fCombatMusicPlayerTargetedThreatRatio", 0.000000);
+			Game.SetGameSettingFloat("fCombatMusicPlayerTargetedThreatRatio", -1.000000);
 			Game.SetGameSettingFloat("fCombatMusicStopTime", 0.000000);
-			Game.SetGameSettingFloat("fCombatMusicUpdateTime", 0.000000);
+			Game.SetGameSettingFloat("fCombatMusicUpdateTime", -1.000000);
+			ConsoleUtil.ExecuteCommand("removemusic MUSCombat");
 		EndIf
 
 	EndIf
