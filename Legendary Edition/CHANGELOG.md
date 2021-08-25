@@ -14,7 +14,7 @@
 > 20210-08-25
 
 -   Changed some values to -1 instead of 0 to try and fix some issues of eternal combat music
--   Added ConsolUtil as a dependency and now runs `removemusic MUSCombat` on toggling music off
+-   Added ConsoleUtil as a dependency and now runs `removemusic MUSCombat` on toggling music off
 
 # v1.0.0
 

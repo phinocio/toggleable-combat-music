@@ -34,4 +34,4 @@ Allows one to turn on/off combat music. This version is for **Skyrim Legendary E
 
 # Limitations
 
--   Turning combat music off while in combat, won't stop the already playing music and seems to lead to combat music playing until on turns it back on in the MCM, enters combat, leaves combat, then turns it back off. This limitation should be fixed in v1.1.0 with the addition of ConsolUtil and running `removemusic MUSCombat` console command when turning off music. Please let me know if it's not and I will look into another solution.
+-   Turning combat music off while in combat, won't stop the already playing music and seems to lead to combat music playing until on turns it back on in the MCM, enters combat, leaves combat, then turns it back off. This limitation should be fixed in v1.1.0 with the addition of ConsoleUtil and running `removemusic MUSCombat` console command when turning off music. Please let me know if it's not and I will look into another solution.
